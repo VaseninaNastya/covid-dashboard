@@ -1,0 +1,26 @@
+.demo_item{
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid white;
+    cursor: pointer;
+}
+.statistic_list{
+    background-color: rgb(217, 255, 242);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    overflow-y: auto;
+  }
+  .statistic_list::-webkit-scrollbar  {
+    width: 7px;
+    background-color: #f9f9fd;
+}
+
+
+.statistic_list::-webkit-scrollbar-thumb {
+    background-color: rgb(197, 194, 0);
+}
